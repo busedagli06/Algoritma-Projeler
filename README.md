@@ -42,6 +42,34 @@ Selection Sort algoritması, her adımda dizinin en küçük elemanını bulup b
 [8, 11, 12, 16, 21, 22]
 ## Big-O gösterimi
 Big-O gösterimiyle O(n log n)'dir.
+# Binary-Search-Tree(Proje 3)
+ ## Dizisinin Binary-Search-Tree aşamaları [7, 5, 1, 8, 3, 6, 0, 9, 4, 2]
+* İlk elemanı kök (root) olarak belirle.  
+Kök: 7
+* Sıradaki elemanı kök ile karşılaştır.  
+5, kökün solunda yer alır.
+* Bir sonraki elemanı kök ile karşılaştır.  
+1, kökün solunda yer alır.
+* Bir sonraki elemanı kök ile karşılaştır.  
+8, kökün sağına yer alır.
+* Bir sonraki elemanı kök ile karşılaştır.  
+3, 5'in sağına yer alır.
+* Bir sonraki elemanı kök ile karşılaştır.  
+6, 5'in sağına yer alır.
+* Bir sonraki elemanı kök ile karşılaştır.  
+0, 1'in soluna yer alır.
+* Bir sonraki elemanı kök ile karşılaştır.  
+9, 8'in sağına yer alır.
+* Bir sonraki elemanı kök ile karşılaştır.  
+4, 3'in sağına yer alır.
+* Bir sonraki elemanı kök ile karşılaştır.  
+2, 3'ün soluna yer alır.
+
+
+       
+
+
+
 
 
 
