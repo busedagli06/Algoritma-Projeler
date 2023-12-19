@@ -28,7 +28,21 @@ Selection Sort algoritması, her adımda dizinin en küçük elemanını bulup b
  * [2, 3, 5, 8, 7, 9, 4, 15, 6]
  * [2, 3, 5, 8, 7, 9, 4, 15, 6]
  * [2, 3, 4, 8, 7, 9, 5, 15, 6]
- * [2, 3, 4, 6, 7, 9, 5, 15, 8]
+ * [2, 3, 4, 6, 7, 9, 5, 15, 8]  
+#  Merge Sort(Proje 2)
+ ## Dizinin sort türüne göre aşamaları[16,21,11,8,12,22]
+ Merge Sort algoritması, bir diziyi sıralamak için aşağıdaki adımları izler:
+ * Diziyi iki eşit parçaya böl.  
+ Sol: [16, 21, 11]
+ Sağ: [8, 12, 22]
+ * Adım: Her iki parçayı da aynı algoritma ile sırala (rekürsif olarak).  
+ Sol: [11, 16, 21]
+ Sağ: [8, 12, 22]
+ * İki sıralı parçayı birleştir.  
+[8, 11, 12, 16, 21, 22]
+## Big-O gösterimi
+Big-O gösterimiyle O(n log n)'dir.
+
 
 
 
